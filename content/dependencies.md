@@ -238,6 +238,11 @@ A step-by-step guide on how to contribute packages can be found in the
 
 ## Other dependency management tools
 
+### General
+
+- [Mamba](https://github.com/mamba-org/mamba)
+  - Drop in replacement for conda with faster dependency management (replace `conda` by `mamba` in commands).
+  
 ### Python
 
 - [Virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
@@ -260,8 +265,7 @@ A step-by-step guide on how to contribute packages can be found in the
   - Alternative to virtualenv and Pipenv
 - [Pyenv](https://github.com/pyenv/pyenv)
   - Tool to easily manage per-project/per-directory Python **versions**
-- [Mamba](https://github.com/mamba-org/mamba)
-  - works like conda, but resolves dependencies faster 
+
 
 
 ### R
@@ -293,8 +297,7 @@ C/C++, but useful tools include:
     CMake](https://coderefinery.github.io/cmake/))
 - [Conan](https://conan.io/)
   - A C/C++ package manager for Developers
-- [Conda](https://docs.conda.io/en/latest/)
-  - Works with any language, in principle
+
 
 ### Fortran
 
